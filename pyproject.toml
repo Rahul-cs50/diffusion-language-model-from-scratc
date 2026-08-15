@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diffusion-language-model-from-scratch"
+version = "0.1.0"
+description = "A small diffusion language model implemented from first principles."
+requires-python = ">=3.10"
+dependencies = [
+    "torch==2.8.0",
+    "transformers==5.6.0",
+    "datasets",
+    "tokenizers",
+    "accelerate",
+    "tqdm",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "imageio",
+    "pillow",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
