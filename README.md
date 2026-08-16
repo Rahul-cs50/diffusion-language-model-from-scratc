@@ -140,7 +140,11 @@ The tested **temperature 1.1 / top-k 50** configuration produced the highest rec
 
 The same **temperature 1.1 / top-k 50** configuration produced the lowest recorded bigram repetition rate: **0.3456**.
 
-The generation process is explicitly iterative: the answer region begins masked and is progressively resolved over diffusion steps. A terminal-style visualization is included in `assets/inference.gif`.
+### Progressive denoising
+
+The generation process is explicitly iterative: the answer region begins masked and is progressively resolved over diffusion steps.
+
+![Inference during generation](assets/inference.gif)
 
 ## Generation examples
 
