@@ -259,7 +259,6 @@ Temperature controls distribution sharpness while top-k restricts sampling to th
 - Generation quality is not comparable with modern production LLMs.
 - Recorded loss curves are batch-level and noisy.
 - Diversity and repetition metrics do not measure factuality, coherence, or instruction following.
-- The large trained checkpoint is not included in Git history.
 
 ## License
 
